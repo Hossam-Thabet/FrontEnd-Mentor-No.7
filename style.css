@@ -119,9 +119,11 @@ body {
 }
 
 .card h3 {
-  margin-top: 1rem;
-  font-size: 22px;
-  letter-spacing: 0px;
+  margin-top: 14px;
+  font-size: 21px;
+  letter-spacing: -.275px;
+  /* font-size: 21px;
+  letter-spacing: -0.255px; */
   font-weight: 500;
   line-height: 1.2;
 }
@@ -131,6 +133,14 @@ body {
   color: var(--Light-gray);
   opacity: 70%;
   font-size: 14px;
+  /* letter-spacing: -.1px; */
+}
+
+@media (min-width: 1440px) {
+  .card p {
+    font-size: 13px;
+    font-weight: 500;
+  }
 }
 .card:nth-child(2) {
   background-color: var(--Very-dark-grayish-blue);
@@ -169,18 +179,8 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 .attribution {
-   font-size: 11px;
+   font-size: 13px;
     text-align: center;
  }
 
